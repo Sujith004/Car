@@ -1,0 +1,259 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIAN MOTORS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <style>
+        .log{
+            justify-content: center;
+            /* padding-left: 580px;
+            padding-top: 300px; */
+            border: 5px unset black ;
+        }
+        .button{
+            color:white;
+            background-color: blue;
+            justify-content: center;
+        }
+    </style> 
+ <form id="loginform">
+    <div class="log">
+        <h1> INDIAN MOTORS</h1>
+        <h2> LOGIN</h2>
+        <label> USERNAME :</label>
+        <input type="text" name="username" required>
+        <BR>
+        <BR>
+        <label> PASSWORD :</label>
+        <input type="password" name="password" required><BR><BR>
+        <button onclick="boot()">LOGIN</button>
+    </form>
+    </div>
+    <script src="boott.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>  --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIAN MOTORS</title>
+    <script defer src="boott.js"></script>
+    <link rel="logo" href="pics/logo.png">
+</head>
+<body>
+    <style>
+        .fr{
+            background-color: rgb(255, 255, 255);
+            background:url(pics/Designer.png);
+            width: 100%;
+            background-repeat:no-repeat ;
+            background-position: center;
+            background-size: cover;
+            
+            
+        
+        }
+        .main{
+            align-items: center;
+            justify-content: center;
+            border: solid 3px rgb(255, 255, 255);
+            margin-left: 500px;
+            margin-top: 150px;
+            margin-bottom:250px;
+            margin-right: 500px;
+            padding-left: 25px;
+            
+            
+            
+        }
+        .main:hover{
+            box-shadow: 10px 10px 50px white ;
+        }
+        .he{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 75px;
+            filter: drop-shadow(6px 8px 20px rgb(0, 0, 0));
+        }
+    .mm{
+        color: white;
+        
+    }
+    /* Hide the default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  padding-top: 25px;
+}
+
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+  background-color: rgba(16, 16, 16, 0.5);
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container input:checked ~ .checkmark {
+  box-shadow: rgb(255, 84, 0) 0px 0px 0px 2px;
+  background-color: rgba(245, 24, 24, 0.5);
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+  transition: all 500ms ease-in-out;
+}
+.button{
+    
+ /* From uiverse.io by @Ali-Tahmazi99 */
+
+ display: inline-block;
+ width: 150px;
+ height: 50px;
+ border-radius: 10px;
+ border: 1px solid #696bff;
+ position: relative;
+ overflow: hidden;
+ transition: all 0.5s ease-in;
+ z-index: 1;
+}
+
+button::before,
+button::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ width: 0;
+ height: 100%;
+ transform: skew(15deg);
+ transition: all 0.5s;
+ overflow: hidden;
+ z-index: -1;
+}
+button::before {
+ left: -10px;
+ background: #ff0000;
+}
+button::after {
+ right: -10px;
+ background: #ffffff;
+}
+
+button:hover::before,
+button:hover::after {
+ width: 58%;
+}
+
+button:hover span {
+ color: #fdfdfd;
+ transition: 0.3s;
+}
+
+button span {
+ /* color: #ff000d; */
+ font-size: 18px;
+ transition: all 0.3s ease-in;
+}
+.s{ display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+.no{
+    justify-content: center;
+    padding-top: 25px;
+}
+.lo{
+    padding-left: 2px;
+    
+}
+
+
+    </style>
+    <fieldset class="fr">
+
+                <H1 class="he">INDIAN MOTORS</H1>
+                <marquee behaviour="scroll" direction="left" style="font-size: 50px; color: aliceblue;">WELCOME BACK MATE</marquee>
+            <div class="main">
+    
+                <h2 style="color: aliceblue;">Sign-in</h2>
+                <form  id="loginForm" class="mm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                </form>
+                        <button type="submit" class="button" id="but1">Login</button><br>
+                        <div class="s">
+                            <label class="container">
+                                <input checked="checked" type="checkbox"> 
+                                <div class="checkmark"></div><label style="color: #fdfdfd;">Remember Me</label>
+                            </label>
+                            <label style="color: #fdfdfd;">Forgot password</label>
+                        </div>
+                        <div class="no">
+                            <label style="color: #fdfdfd;"> Don't you have account</label>
+                            <a href=" newid.html"> Login</a>
+                        </div>
+                 <p id="error-message" style="color:red;"></p>
+            </div>
+    </fieldset>
+</body>
+</html>
